@@ -13,7 +13,6 @@ for i = 1:3
     loglog(D, F, "--"+colors(j))
     hold on 
     loglog(D,f, colors(j))
-    
     legend({'Max','Mid','Min'},'Location','southwest')
     xlabel('Time') 
     ylabel('Distance') 
